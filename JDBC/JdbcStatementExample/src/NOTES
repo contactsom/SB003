@@ -1,0 +1,40 @@
+TODO:
+
+Remember, if you use a different DB, you need different drivers and connection strings! 
+will syntax we using now in eclipse vary when we use different SQL server as backend?
+
+
+
+
+
+
+	****** JDBC to MySql ******
+
+1. I have loaded my "MySql" driver 
+	How : com.mysql.jdbc.Driver
+	
+2. I need to tell to JDBC, 
+	How : jdbc
+
+
+3. I need to connect with , 
+	whome ? - mysql
+	
+4. Where is mysql ?
+	Where : localhost [in my pc]
+	
+5. In Your PC , Which port it is using ?
+	Post : 3306
+6. Congratulation !!! I am able to know about your DB called MySql
+
+7. My Data Base name is simplilearn
+8. Cred - "root","root12345"
+
+
+
+"jdbc:mysql://localhost:3306/simplilearn", "root","root12345");
+
+
+
+
+

@@ -1,0 +1,33 @@
+
+-- 1. list out all the database 	
+	show databases;
+
+-- 2. If DB Already exist , then drop the DB
+
+	drop DATABASE simplilearn;
+
+-- 3. Create the Database 
+		CREATE DATABASE simplilearn;
+		
+-- 4. Use the Data Base
+		USE simplilearn;
+
+-- 5. If table Already exist , then drop the table
+  		drop table Employees;
+  		
+-- 6. Create the Table  
+		create table Employees(
+		     ID int NOT NULL PRIMARY KEY,
+		     AGE int NOT NULL,
+		     FIRST varchar (255),
+		     LAST varchar (255)
+		     );
+     
+     
+-- 7. Insert the data in to table     
+		INSERT INTO Employees VALUES (100, 21, 'JACK', 'EDITION');
+		INSERT INTO Employees VALUES (101, 22, 'RUSTY', 'COLTONS');
+		INSERT INTO Employees VALUES (102, 23, 'MOHAN', 'P');
+		INSERT INTO Employees VALUES (103, 24, 'PALANI', 'K');
+		INSERT INTO Employees VALUES (104, 25, 'SHRI', 'KANTA');
+		INSERT INTO Employees VALUES (105, 26, 'WILMAN', 'KALA');
