@@ -1,0 +1,21 @@
+Installation :
+
+1. Install the MySql
+	URL : https://downloads.mysql.com/archives/installer/
+
+2. MySQL Workbench
+	URL : https://downloads.mysql.com/archives/workbench/
+
+MYSQL    : 8.0.28
+User     : root
+Password : root12345
+
+3. Download JAR "mysql-connector-java-8.0.28.jar"
+	URL      : https://downloads.mysql.com/archives/c-j/
+	Select   : 
+			1. PRODUCE VERSION  : 8.0.28
+			2. OPERATING SYSTEM : Platform Independent
+	Platform Independent (Architecture Independent), ZIP Archive
+Unzip 
+
+JAVA     : 1.8.311.11
