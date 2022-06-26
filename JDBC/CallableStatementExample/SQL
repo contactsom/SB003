@@ -1,0 +1,15 @@
+
+DELIMITER 
+
+CREATE PROCEDURE GetAllEmployee()
+BEGIN
+	SELECT *  FROM Employees;
+END 
+
+DELIMITER ;
+
+------------------------------------
+
+
+
+

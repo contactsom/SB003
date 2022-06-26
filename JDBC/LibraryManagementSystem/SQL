@@ -1,0 +1,24 @@
+
+USE simplilearn;
+	
+CREATE TABLE BOOKS(
+		     BID int NOT NULL PRIMARY KEY,
+		     BNAME varchar (255),
+		     BAUTHOR varchar (255),
+		     BPUB varchar (255),
+		     BPRICE INT,
+		     BISBN varchar (255)     
+		     );
+		     
+INSERT INTO BOOKS VALUES (?,?,?,?,?,?);
+UPDATE BOOKS set BPRICE = ? where BID = ?
+DELETE FROM BOOKS WHERE BID = ?
+SELECT * FROM BOOKS WHERE BID = ?
+
+		     
+
+CREATE TABLE USER(
+		     USER_NAME varchar (255),
+		     USER_PASS varchar (255)    
+		     );
+INSERT INTO USER VALUES ('ritesh', 'Pass2022');

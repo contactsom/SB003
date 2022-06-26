@@ -1,0 +1,53 @@
+
+
+1. Statement->
+	Insert,Update,Delete
+ 
+2. PreparedStatement
+	???
+
+3. CallableStatement
+	
+	
+
+
+public interface Statement  {}
+
+public interface PreparedStatement extends Statement {}
+
+public interface CallableStatement extends PreparedStatement {}
+ 
+CallableStatement internally extending Statement . True/False  : True
+
+
+
+
+
+
+
+
+
+
+
+
+I 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
