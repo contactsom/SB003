@@ -6,7 +6,7 @@ public class JDBCUtil {
 	
 	static {
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver"); // MySql
+			Class.forName("com.mysql.cj.jdbc.Driver"); // MySql Driver
 			Class.forName("oracle.jdbc.driver.OracleDriver"); // Oracle Drive
 		} catch (Exception e) {
 			e.printStackTrace();
