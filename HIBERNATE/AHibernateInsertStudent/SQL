@@ -1,0 +1,15 @@
+USE simplilearn;
+ 
+ -- If table Exist then drop
+ drop table STUDENT;
+ 
+create table STUDENT(	
+		stuid int  PRIMARY KEY NOT NULL AUTO_INCREMENT,			 
+		stuname char(15),
+		stuemail char(15),
+		stuphone long,
+		stucity char(15),
+		stubal double
+	);
+
+select * from STUDENT;

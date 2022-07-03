@@ -1,0 +1,35 @@
+
+Scope : Write a Hibernate code to Insert the data in to MySql Database using Annotation . 
+Steps for annotation Hibernate example
+1. Create the java Project
+2. Create the Lib filder 
+3. Place the Hibernate Annotation related jar's . total count 30
+4. Place the Hibernate Configuration file in to */src folder namely "hibernate.cfg.xml"
+5. Finalize the SQL
+
+
+X
+Y
+=(y) X
+
+
+<property name="format_sql">false</property>
+Hibernate: 
+		insert into customers (bal, city, cname, email, phone) values (?, ?, ?, ?, ?)
+
+
+<property name="format_sql">false</property>
+Hibernate: 
+    insert 
+    into
+        customers
+        (bal, city, cname, email, phone) 
+    values
+        (?, ?, ?, ?, ?)
+
+if we do a select query using hibernate the mettadata will store in ResultSet right sir ? 
+Hibernate : NO
+Haibernate is using JDBC
+JDBC is using ResultSet
+Hense , Hibernate is using Result Set
+YES

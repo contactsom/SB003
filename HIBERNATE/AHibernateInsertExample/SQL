@@ -1,0 +1,18 @@
+USE simplilearn;
+ 
+ -- If table Exist then drop
+ drop table customers;
+ 
+create table customers(	
+		cid int  PRIMARY KEY NOT NULL AUTO_INCREMENT,			 
+		name char(15),
+		email char(15),
+		phone long,
+		city char(15),
+		bal double
+	);
+
+select * from customers;
+
+
+cid Student_ID

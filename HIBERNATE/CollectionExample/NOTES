@@ -1,0 +1,45 @@
+SCOPE :
+ Write a Hibernate code to handle the Collections data in MySql Using XML 
+
+Collection in JAVA
+1. Set
+2. List
+3. Map
+
+DS:
+Array
+
+
+
+What is diff- between  <list>... </list>   and <bag> ...</bag>   in hibernate?
+<list>... </list>
+	It store the list of String type data
+	Ex:	private List<String> emails;/*Table emails*/ 
+ <bag> ...</bag>
+    It store the list of Integer type data
+	Ex:	private List<Integer> marks;
+	
+	students
+	courses
+	emails
+	marks
+	phones
+	referance
+	
+	why we not using Index for the Marks?
+Hibernate: insert into students (sname, dob, quali, sid) values (?, ?, ?, ?)
+Hibernate: insert into courses (sid, idx, course) values (?, ?, ?)
+Hibernate: insert into courses (sid, idx, course) values (?, ?, ?)
+Hibernate: insert into courses (sid, idx, course) values (?, ?, ?)
+Hibernate: insert into emails (sid, idx, emailId) values (?, ?, ?)
+Hibernate: insert into emails (sid, idx, emailId) values (?, ?, ?)
+Hibernate: insert into emails (sid, idx, emailId) values (?, ?, ?)
+Hibernate: insert into marks (sid, marks) values (?, ?)
+Hibernate: insert into marks (sid, marks) values (?, ?)
+Hibernate: insert into marks (sid, marks) values (?, ?)
+Hibernate: insert into phones (sid, phoneNo) values (?, ?)
+Hibernate: insert into phones (sid, phoneNo) values (?, ?)
+Hibernate: insert into phones (sid, phoneNo) values (?, ?)
+Hibernate: insert into referance (sid, rname, rphone) values (?, ?, ?)
+Hibernate: insert into referance (sid, rname, rphone) values (?, ?, ?)
+Hibernate: insert into referance (sid, rname, rphone) values (?, ?, ?)

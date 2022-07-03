@@ -1,0 +1,25 @@
+TABLE  : "students"
+Column : sid [PK] sname dobquali
+
+TABLE  : courses
+Column : sid [FK]  idx cname
+	
+TABLE  : emails
+Column : sid [FK]  idx emailId
+	
+TABLE  : marks
+Column : sid [FK] marks
+
+TABLE  : phones
+Column : sid [FK] phoneNo
+
+TABLE  : referance
+Column : sid [FK] rname rphone
+
+
+select * from students;
+select * from courses;
+select * from	emails;
+select * from	marks;
+select * from	phones;
+select * from	referance;
