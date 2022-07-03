@@ -1,0 +1,10 @@
+
+
+create table STUDENT_INFO(	
+		sid int  PRIMARY KEY NOT NULL AUTO_INCREMENT,	 
+		sname char(15),
+		semail char(15),
+		sphone long,
+		scity char(15),
+		sbal double
+	);

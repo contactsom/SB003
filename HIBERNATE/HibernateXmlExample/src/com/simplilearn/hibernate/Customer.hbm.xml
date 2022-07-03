@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.simplilearn.hibernate">
+	
+	<class name="Customer" table="customers">
+
+		<id name="cid" column="Cid" type="int">	
+		<generator class="increment" />	
+		</id>		
+		
+		<property name="name"  column="Name"/>
+		<property name="email" column="Email" />
+		<property name="phone" column="Phone" type="long" />
+		<property name="city" column="City" type="string" />
+		<property name="bal" column="Bal" type="double" />
+	</class>
+</hibernate-mapping>
+
+

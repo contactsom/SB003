@@ -1,0 +1,138 @@
+
+1. Create the JAVA Project 
+2. Copy the List of JAR's in to lib folder 
+3. Add the JARS in to build path
+4. place the Hibernate Configuration file i.e "hibernate.cfg.xml" in to */src folder
+5. Create the Package to place the Code
+	5.1 Place the HBM File here : "Customer.hbm.xml"
+6. Crate the Entity class
+
+
+
+
+
+some time we confused in where we have to write in java and xml and hibernate?
+
+
+log4j:WARN Please initialize the log4j system properly.
+
+Hibernate: insert into customers (Name, Email, Phone, City, Bal, Cid) values (?, ?, ?, ?, ?, ?)
+
+
+100 Line 
+
+
+Yes Sir, it is working preparedStatement only
+
+
+
+
+
+
+
+
+
+"<Entity Class Name > .hbm.xml"
+
+"Customer.hbm.xml"
+
+"Employee.hbm.xml"
+
+"Student.hbm.xml"
+
+
+
+XML File name materrs
+
+
+KEY and VALUE Pair : MAP Collection 
+
+<property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+
+What is dialect property in Hibernate ?
+This property is telling Hibernate that which Brand and version of database are you using.
+Here by providing "org.hibernate.dialect.MySQLDialect" to hibernate .
+I am telling that I am using MySql data base 
+
+
+
+ got it.. so if we code now we will have to use this xml that tou showed?
+ 
+ 
+ 
+ JDBC 
+  We are responsable to create the TABLE 
+  
+  
+How Hibernate is goig to create the Table for you?
+Create the Entity Class and map the same class to the Hibernate Using XML 
+  
+  
+     int cid;
+		 String name;
+		 String email;
+	 long phone;
+	 String city;
+	 double bal;
+	
+	
+		<class name="Customer" table="customers">
+		
+		<id 
+			name="cid" column="Cid" type="int">	
+			<generator class="increment" />	
+		</id>
+				
+			<property name="name"  column="Name"/>
+			<property name="email" column="Email" />
+		<property name="phone" column="Phone" type="long" />
+			<property name="city" column="City" type="string" />
+		<property name="bal" column="Bal" type="double" />
+		
+	
+	If you are not defining any data type , Hibernate will consider this as a "string" type bydefault
+
+type="string" - optional 
+360 type question 
+
+
+column="Name"
+column="Email"
+column="Phone"
+
+
+
+
+sir what is pojo class meaning?
+
+
+Plain JAVA OBJECT
+
+
+
+.
+
+
+
+
+Is Customer. JAVA is POJO or Entity or Both
+
+
+
+
+
+
+1. Done with Connection 
+2. DDL , Table creation done 
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
