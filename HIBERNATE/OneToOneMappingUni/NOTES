@@ -1,0 +1,36 @@
+THIS PROGRAM IS FOR one-to-one uni-direction Mapping using XML .
+
+STUDENT 		ADDRESS
+ONE STUDENT HAVE ONLY ONE Address - TRUE
+
+
+
+
+
+MAPPING {Most Important}
+
+1. one-to-one
+2. one-to-many
+3. Many-to-Many
+4. Many-to-one*
+
+
+java - 1.8.311.11 or 1.8
+
+
+
+
+
+One Directional 
+Bi-Directional 
+
+
+/*STUDENT 		PHONE
+ONE STUDENT HAVE ONLY ONE PHONE NUMBER - TRUE
+
+DABIT CARD      UNIQUE NUMBER
+EACH DABIT CARD HAVE UNIQUE NUMBER - TRUE
+
+CITIZEN -    PASSPORT
+EACH CITIZEN HAVE ONLY ONE PASSPORT - TRUE*/
+ 
