@@ -35,7 +35,7 @@ public class InsertData {
 		student.setAddress(address);/*Set address data in to Student*/
 		address.setStudent(student);/*Set Student data in to Address*/
 		
-		session.save(address);
+		session.save(address);/* I am saving address object , because it has student reference already*/
 		
 		
 		session.getTransaction().commit();

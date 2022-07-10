@@ -1,3 +1,9 @@
 THIS PROGRAM IS FOR one-to-one bi-direction Mapping using Annotation .
 
 
+From  STUDENT[p] TO  ADDRESS[c]
+
+CascadeType
+
+Once you update the parent table than do the same for child table also
+and configuration should go under Child table

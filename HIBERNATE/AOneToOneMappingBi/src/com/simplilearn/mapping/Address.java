@@ -30,7 +30,7 @@ public class Address {
 	
 	@OneToOne(cascade= CascadeType.ALL)
     @JoinColumn(name = "STUDENT_ID")
-	Student student;
+	Student student;/*1*/
 
 	
 	public Address() {

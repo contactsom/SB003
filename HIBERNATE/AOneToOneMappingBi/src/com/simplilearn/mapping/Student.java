@@ -26,7 +26,7 @@ public class Student {
 		@Column(name="STUDENT_PHONE")
 		String sphone;
 		
-		@OneToOne(mappedBy="student")
+		@OneToOne(mappedBy="student")/*1*/
 		Address address;
 		//ONE STUDENT HAVE ONLY ONE Address - TRUE
 		
