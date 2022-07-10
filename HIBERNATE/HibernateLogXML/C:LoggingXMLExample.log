@@ -1,0 +1,162 @@
+[10/07/22 08:37:32:032 IST]  INFO cfg.Environment: Hibernate 3.0rc1
+[10/07/22 08:37:32:032 IST]  INFO cfg.Environment: hibernate.properties not found
+[10/07/22 08:37:32:032 IST]  INFO cfg.Environment: using CGLIB reflection optimizer
+[10/07/22 08:37:32:032 IST]  INFO cfg.Environment: using JDK 1.4 java.sql.Timestamp handling
+[10/07/22 08:37:32:032 IST]  INFO cfg.Configuration: configuring from resource: /hibernate.cfg.xml
+[10/07/22 08:37:32:032 IST]  INFO cfg.Configuration: Configuration resource: /hibernate.cfg.xml
+[10/07/22 08:37:32:032 IST] DEBUG util.DTDEntityResolver: trying to locate http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath under org/hibernate/
+[10/07/22 08:37:32:032 IST] DEBUG util.DTDEntityResolver: found http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd in classpath
+[10/07/22 08:37:32:032 IST] DEBUG cfg.Configuration: hibernate.connection.driver_class=com.mysql.jdbc.Driver
+[10/07/22 08:37:32:032 IST] DEBUG cfg.Configuration: hibernate.connection.url=jdbc:mysql://localhost:3306/simplilearn
+[10/07/22 08:37:32:032 IST] DEBUG cfg.Configuration: hibernate.connection.username=root
+[10/07/22 08:37:32:032 IST] DEBUG cfg.Configuration: hibernate.connection.password=root12345
+[10/07/22 08:37:32:032 IST] DEBUG cfg.Configuration: dialect=org.hibernate.dialect.MySQLDialect
+[10/07/22 08:37:32:032 IST] DEBUG cfg.Configuration: show_sql=true
+[10/07/22 08:37:32:032 IST] DEBUG cfg.Configuration: format_sql=true
+[10/07/22 08:37:32:032 IST] DEBUG cfg.Configuration: hbm2ddl.auto=update
+[10/07/22 08:37:32:032 IST] DEBUG cfg.Configuration: null<-org.dom4j.tree.DefaultAttribute@593634ad [Attribute: name resource value "com/simplilearn/logging/Customer.hbm.xml"]
+[10/07/22 08:37:32:032 IST]  INFO cfg.Configuration: Mapping resource: com/simplilearn/logging/Customer.hbm.xml
+[10/07/22 08:37:32:032 IST] DEBUG util.DTDEntityResolver: trying to locate http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath under org/hibernate/
+[10/07/22 08:37:32:032 IST] DEBUG util.DTDEntityResolver: found http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd in classpath
+[10/07/22 08:37:32:032 IST]  INFO cfg.HbmBinder: Mapping class: com.simplilearn.logging.Customer -> customers_log
+[10/07/22 08:37:32:032 IST] DEBUG cfg.HbmBinder: Mapped property: cid -> Cid
+[10/07/22 08:37:32:032 IST] DEBUG cfg.HbmBinder: Mapped property: name -> Name
+[10/07/22 08:37:32:032 IST] DEBUG cfg.HbmBinder: Mapped property: email -> Email
+[10/07/22 08:37:32:032 IST] DEBUG cfg.HbmBinder: Mapped property: phone -> Phone
+[10/07/22 08:37:32:032 IST] DEBUG cfg.HbmBinder: Mapped property: city -> City
+[10/07/22 08:37:32:032 IST] DEBUG cfg.HbmBinder: Mapped property: bal -> Bal
+[10/07/22 08:37:32:032 IST]  INFO cfg.Configuration: Configured SessionFactory: null
+[10/07/22 08:37:32:032 IST] DEBUG cfg.Configuration: properties: {hibernate.connection.password=root12345, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib, java.vm.version=25.311-b11, hibernate.connection.username=root, gopherProxySet=false, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/Users/om/SB003/HIBERNATE/HibernateLogXML, java.runtime.version=1.8.0_311-b11, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, hbm2ddl.auto=update, java.endorsed.dirs=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/endorsed, os.arch=x86_64, java.io.tmpdir=/var/folders/l2/5x2xkk1s2zd2wxtlx4pc61b40000gn/T/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Mac OS X, sun.jnu.encoding=UTF-8, java.library.path=/Users/om/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.16, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/om, user.timezone=Asia/Kolkata, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, hibernate.format_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=/Users/om/SB003/HIBERNATE/HibernateLogXML/bin:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/antlr-2.7.4.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/c3p0-0.9.0.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/cglib-full-2.0.2.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/commons-collections-2.1.1.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/commons-logging-1.0.4.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/dom4j-1.5.2.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/ehcache-1.1.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/hibernate3.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/jdbc2_0-stdext.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/jta.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/log4j-1.2.9.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/mysql.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/mysql-connector-java-8.0.28.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/tools.jar, user.name=om, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=com.simplilearn.logging.CustomerInsert, java.home=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost:3306/simplilearn, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.lwawt.macosx.LWCToolkit, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, java.version=1.8.0_311, java.ext.dirs=/Users/om/Library/Java/Extensions:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.boot.class.path=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/resources.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/sunrsasign.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jsse.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jce.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/charsets.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jfr.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/classes, java.vendor=Oracle Corporation, file.separator=/, hibernate.hbm2ddl.auto=update, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeBig, sun.cpu.endian=little, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, dialect=org.hibernate.dialect.MySQLDialect, sun.cpu.isalist=}
+[10/07/22 08:37:32:032 IST] DEBUG cfg.Configuration: Preparing to build session factory with filters : {}
+[10/07/22 08:37:32:032 IST]  INFO cfg.Configuration: processing extends queue
+[10/07/22 08:37:32:032 IST]  INFO cfg.Configuration: processing collection mappings
+[10/07/22 08:37:32:032 IST]  INFO cfg.Configuration: processing association property references
+[10/07/22 08:37:32:032 IST]  INFO cfg.Configuration: processing foreign key constraints
+[10/07/22 08:37:32:032 IST]  INFO dialect.Dialect: Using dialect: org.hibernate.dialect.MySQLDialect
+[10/07/22 08:37:32:032 IST] DEBUG exception.SQLExceptionConverterFactory: Using dialect defined converter
+[10/07/22 08:37:32:032 IST]  INFO cfg.SettingsFactory: Maximum outer join fetch depth: 2
+[10/07/22 08:37:32:032 IST]  INFO cfg.SettingsFactory: Default batch fetch size: 1
+[10/07/22 08:37:32:032 IST]  INFO cfg.SettingsFactory: Generate SQL with comments: disabled
+[10/07/22 08:37:32:032 IST]  INFO cfg.SettingsFactory: Order SQL updates by primary key: disabled
+[10/07/22 08:37:32:032 IST]  INFO cfg.SettingsFactory: Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[10/07/22 08:37:32:032 IST]  INFO ast.ASTQueryTranslatorFactory: Using ASTQueryTranslatorFactory
+[10/07/22 08:37:32:032 IST]  INFO cfg.SettingsFactory: Query language substitutions: {}
+[10/07/22 08:37:32:032 IST]  INFO connection.DriverManagerConnectionProvider: Using Hibernate built-in connection pool (not for production use!)
+[10/07/22 08:37:32:032 IST]  INFO connection.DriverManagerConnectionProvider: Hibernate connection pool size: 20
+[10/07/22 08:37:32:032 IST]  INFO connection.DriverManagerConnectionProvider: autocommit mode: false
+[10/07/22 08:37:32:032 IST]  INFO connection.DriverManagerConnectionProvider: using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/simplilearn
+[10/07/22 08:37:32:032 IST]  INFO connection.DriverManagerConnectionProvider: connection properties: {user=root, password=root12345}
+[10/07/22 08:37:32:032 IST] DEBUG connection.DriverManagerConnectionProvider: total checked-out connections: 0
+[10/07/22 08:37:32:032 IST] DEBUG connection.DriverManagerConnectionProvider: opening new JDBC connection
+[10/07/22 08:37:33:033 IST] DEBUG connection.DriverManagerConnectionProvider: created connection to: jdbc:mysql://localhost:3306/simplilearn, Isolation Level: 4
+[10/07/22 08:37:33:033 IST] DEBUG connection.DriverManagerConnectionProvider: returning connection to pool, pool size: 1
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: JDBC batch size: 15
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: JDBC batch updates for versioned data: disabled
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: Scrollable result sets: enabled
+[10/07/22 08:37:33:033 IST] DEBUG cfg.SettingsFactory: Wrap result sets: disabled
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: JDBC3 getGeneratedKeys(): enabled
+[10/07/22 08:37:33:033 IST]  INFO transaction.TransactionFactoryFactory: Using default transaction strategy (direct JDBC transactions)
+[10/07/22 08:37:33:033 IST]  INFO transaction.TransactionManagerLookupFactory: No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: Automatic flush during beforeCompletion(): disabled
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: Automatic session close at end of transaction: disabled
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: Cache provider: org.hibernate.cache.EhCacheProvider
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: Second-level cache: enabled
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: Optimize cache for minimal puts: disabled
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: Structured second-level cache entries: enabled
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: Query cache: disabled
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: Echoing all SQL to stdout
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: Statistics: disabled
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: Deleted entity synthetic identifier rollback: disabled
+[10/07/22 08:37:33:033 IST]  INFO cfg.SettingsFactory: Default entity-mode: pojo
+[10/07/22 08:37:33:033 IST]  INFO impl.SessionFactoryImpl: building session factory
+[10/07/22 08:37:33:033 IST] DEBUG impl.SessionFactoryImpl: Session factory constructed with filter configurations : {}
+[10/07/22 08:37:33:033 IST] DEBUG impl.SessionFactoryImpl: instantiating session factory with properties: {hibernate.connection.password=root12345, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib, java.vm.version=25.311-b11, hibernate.connection.username=root, gopherProxySet=false, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=:, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=IN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=unknown, java.vm.specification.name=Java Virtual Machine Specification, user.dir=/Users/om/SB003/HIBERNATE/HibernateLogXML, java.runtime.version=1.8.0_311-b11, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, hbm2ddl.auto=update, java.endorsed.dirs=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/endorsed, os.arch=x86_64, java.io.tmpdir=/var/folders/l2/5x2xkk1s2zd2wxtlx4pc61b40000gn/T/, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, os.name=Mac OS X, sun.jnu.encoding=UTF-8, java.library.path=/Users/om/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.16, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/om, user.timezone=Asia/Kolkata, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, hibernate.format_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, show_sql=true, java.class.path=/Users/om/SB003/HIBERNATE/HibernateLogXML/bin:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/antlr-2.7.4.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/c3p0-0.9.0.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/cglib-full-2.0.2.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/commons-collections-2.1.1.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/commons-logging-1.0.4.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/dom4j-1.5.2.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/ehcache-1.1.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/hibernate3.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/jdbc2_0-stdext.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/jta.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/log4j-1.2.9.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/mysql.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/mysql-connector-java-8.0.28.jar:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/tools.jar, user.name=om, format_sql=true, hibernate.show_sql=true, java.vm.specification.version=1.8, sun.java.command=com.simplilearn.logging.CustomerInsert, java.home=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.MySQLDialect, hibernate.connection.url=jdbc:mysql://localhost:3306/simplilearn, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.lwawt.macosx.LWCToolkit, hibernate.cglib.use_reflection_optimizer=true, java.vm.info=mixed mode, java.version=1.8.0_311, java.ext.dirs=/Users/om/Library/Java/Extensions:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, sun.boot.class.path=/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/resources.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/sunrsasign.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jsse.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jce.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/charsets.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jfr.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/classes, java.vendor=Oracle Corporation, file.separator=/, hibernate.hbm2ddl.auto=update, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeBig, sun.cpu.endian=little, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, dialect=org.hibernate.dialect.MySQLDialect, sun.cpu.isalist=}
+[10/07/22 08:37:33:033 IST]  WARN config.Configurator: No configuration found. Configuring ehcache from ehcache-failsafe.xml found in the classpath: jar:file:/Users/om/SB003/HIBERNATE/HibernateLogXML/lib/ehcache-1.1.jar!/ehcache-failsafe.xml
+[10/07/22 08:37:33:033 IST] DEBUG entity.BasicEntityPersister: Static SQL for entity: com.simplilearn.logging.Customer
+[10/07/22 08:37:33:033 IST] DEBUG entity.BasicEntityPersister:  Version select: select Cid from customers_log where Cid =?
+[10/07/22 08:37:33:033 IST] DEBUG entity.BasicEntityPersister:  Snapshot select: select customer_.Cid, customer_.Name as Name0_, customer_.Email as Email0_, customer_.Phone as Phone0_, customer_.City as City0_, customer_.Bal as Bal0_ from customers_log customer_ where customer_.Cid=?
+[10/07/22 08:37:33:033 IST] DEBUG entity.BasicEntityPersister:  Insert 0: insert into customers_log (Name, Email, Phone, City, Bal, Cid) values (?, ?, ?, ?, ?, ?)
+[10/07/22 08:37:33:033 IST] DEBUG entity.BasicEntityPersister:  Update 0: update customers_log set Name=?, Email=?, Phone=?, City=?, Bal=? where Cid=?
+[10/07/22 08:37:33:033 IST] DEBUG entity.BasicEntityPersister:  Delete 0: delete from customers_log where Cid=?
+[10/07/22 08:37:33:033 IST] DEBUG entity.EntityLoader: Static select for entity com.simplilearn.logging.Customer: select customer0_.Cid as Cid0_, customer0_.Name as Name0_0_, customer0_.Email as Email0_0_, customer0_.Phone as Phone0_0_, customer0_.City as City0_0_, customer0_.Bal as Bal0_0_ from customers_log customer0_ where customer0_.Cid=?
+[10/07/22 08:37:33:033 IST] DEBUG entity.EntityLoader: Static select for entity com.simplilearn.logging.Customer: select customer0_.Cid as Cid0_, customer0_.Name as Name0_0_, customer0_.Email as Email0_0_, customer0_.Phone as Phone0_0_, customer0_.City as City0_0_, customer0_.Bal as Bal0_0_ from customers_log customer0_ where customer0_.Cid=?
+[10/07/22 08:37:33:033 IST] DEBUG entity.EntityLoader: Static select for entity com.simplilearn.logging.Customer: select customer0_.Cid as Cid0_, customer0_.Name as Name0_0_, customer0_.Email as Email0_0_, customer0_.Phone as Phone0_0_, customer0_.City as City0_0_, customer0_.Bal as Bal0_0_ from customers_log customer0_ where customer0_.Cid=? for update
+[10/07/22 08:37:33:033 IST] DEBUG entity.EntityLoader: Static select for entity com.simplilearn.logging.Customer: select customer0_.Cid as Cid0_, customer0_.Name as Name0_0_, customer0_.Email as Email0_0_, customer0_.Phone as Phone0_0_, customer0_.City as City0_0_, customer0_.Bal as Bal0_0_ from customers_log customer0_ where customer0_.Cid=? for update
+[10/07/22 08:37:33:033 IST] DEBUG impl.SessionFactoryObjectFactory: initializing class SessionFactoryObjectFactory
+[10/07/22 08:37:33:033 IST] DEBUG impl.SessionFactoryObjectFactory: registered: ff80808181e8a6c80181e8a6c8ed0000 (unnamed)
+[10/07/22 08:37:33:033 IST]  INFO impl.SessionFactoryObjectFactory: Not binding factory to JNDI, no JNDI name configured
+[10/07/22 08:37:33:033 IST] DEBUG impl.SessionFactoryImpl: instantiated session factory
+[10/07/22 08:37:33:033 IST]  INFO dialect.Dialect: Using dialect: org.hibernate.dialect.MySQLDialect
+[10/07/22 08:37:33:033 IST]  INFO connection.DriverManagerConnectionProvider: Using Hibernate built-in connection pool (not for production use!)
+[10/07/22 08:37:33:033 IST]  INFO connection.DriverManagerConnectionProvider: Hibernate connection pool size: 20
+[10/07/22 08:37:33:033 IST]  INFO connection.DriverManagerConnectionProvider: autocommit mode: false
+[10/07/22 08:37:33:033 IST]  INFO connection.DriverManagerConnectionProvider: using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/simplilearn
+[10/07/22 08:37:33:033 IST]  INFO connection.DriverManagerConnectionProvider: connection properties: {user=root, password=root12345}
+[10/07/22 08:37:33:033 IST]  INFO hbm2ddl.SchemaUpdate: Running hbm2ddl schema update
+[10/07/22 08:37:33:033 IST]  INFO hbm2ddl.SchemaUpdate: fetching database metadata
+[10/07/22 08:37:33:033 IST] DEBUG connection.DriverManagerConnectionProvider: total checked-out connections: 0
+[10/07/22 08:37:33:033 IST] DEBUG connection.DriverManagerConnectionProvider: opening new JDBC connection
+[10/07/22 08:37:33:033 IST] DEBUG connection.DriverManagerConnectionProvider: created connection to: jdbc:mysql://localhost:3306/simplilearn, Isolation Level: 4
+[10/07/22 08:37:33:033 IST]  INFO hbm2ddl.SchemaUpdate: updating schema
+[10/07/22 08:37:33:033 IST]  INFO cfg.Configuration: processing extends queue
+[10/07/22 08:37:33:033 IST]  INFO cfg.Configuration: processing collection mappings
+[10/07/22 08:37:33:033 IST]  INFO cfg.Configuration: processing association property references
+[10/07/22 08:37:33:033 IST]  INFO cfg.Configuration: processing foreign key constraints
+[10/07/22 08:37:33:033 IST]  INFO hbm2ddl.DatabaseMetadata: table not found: customers_log
+[10/07/22 08:37:33:033 IST]  INFO hbm2ddl.DatabaseMetadata: table not found: customers_log
+[10/07/22 08:37:33:033 IST] DEBUG hbm2ddl.SchemaUpdate: create table customers_log (Cid integer not null, Name varchar(255), Email varchar(255), Phone bigint, City varchar(255), Bal double precision, primary key (Cid))
+[10/07/22 08:37:33:033 IST]  INFO hbm2ddl.SchemaUpdate: schema update complete
+[10/07/22 08:37:33:033 IST]  INFO connection.DriverManagerConnectionProvider: cleaning up connection pool: jdbc:mysql://localhost:3306/simplilearn
+[10/07/22 08:37:33:033 IST]  INFO impl.SessionFactoryImpl: Checking 0 named queries
+[10/07/22 08:37:33:033 IST] DEBUG impl.SessionImpl: opened session
+[10/07/22 08:37:33:033 IST] DEBUG transaction.JDBCTransaction: begin
+[10/07/22 08:37:33:033 IST] DEBUG jdbc.AbstractBatcher: opening JDBC connection
+[10/07/22 08:37:33:033 IST] DEBUG connection.DriverManagerConnectionProvider: total checked-out connections: 0
+[10/07/22 08:37:33:033 IST] DEBUG connection.DriverManagerConnectionProvider: using pooled JDBC connection, pool size: 0
+[10/07/22 08:37:33:033 IST] DEBUG transaction.JDBCTransaction: current autocommit status: false
+[10/07/22 08:37:33:033 IST] DEBUG def.DefaultSaveOrUpdateEventListener: saving transient instance
+[10/07/22 08:37:33:033 IST] DEBUG id.IncrementGenerator: fetching initial value: select max(Cid) from customers_log
+[10/07/22 08:37:33:033 IST] DEBUG id.IncrementGenerator: first free id: 1
+[10/07/22 08:37:33:033 IST] DEBUG def.AbstractSaveEventListener: generated identifier: 1, using strategy: org.hibernate.id.IncrementGenerator
+[10/07/22 08:37:33:033 IST] DEBUG def.AbstractSaveEventListener: saving [com.simplilearn.logging.Customer#1]
+[10/07/22 08:37:33:033 IST] DEBUG transaction.JDBCTransaction: commit
+[10/07/22 08:37:33:033 IST] DEBUG impl.SessionImpl: automatically flushing session
+[10/07/22 08:37:33:033 IST] DEBUG def.AbstractFlushingEventListener: flushing session
+[10/07/22 08:37:33:033 IST] DEBUG def.AbstractFlushingEventListener: processing flush-time cascades
+[10/07/22 08:37:33:033 IST] DEBUG def.AbstractFlushingEventListener: dirty checking collections
+[10/07/22 08:37:33:033 IST] DEBUG def.AbstractFlushingEventListener: Flushing entities and processing referenced collections
+[10/07/22 08:37:33:033 IST] DEBUG def.AbstractFlushingEventListener: Processing unreferenced collections
+[10/07/22 08:37:33:033 IST] DEBUG def.AbstractFlushingEventListener: Scheduling collection removes/(re)creates/updates
+[10/07/22 08:37:33:033 IST] DEBUG def.AbstractFlushingEventListener: Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+[10/07/22 08:37:33:033 IST] DEBUG def.AbstractFlushingEventListener: Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[10/07/22 08:37:33:033 IST] DEBUG pretty.Printer: listing entities:
+[10/07/22 08:37:33:033 IST] DEBUG pretty.Printer: com.simplilearn.logging.Customer{phone=123789, city=Hyd1, name=rmkatka, bal=4000.0, email=mk@abc.com, cid=1}
+[10/07/22 08:37:33:033 IST] DEBUG def.AbstractFlushingEventListener: executing flush
+[10/07/22 08:37:33:033 IST] DEBUG entity.BasicEntityPersister: Inserting entity: [com.simplilearn.logging.Customer#1]
+[10/07/22 08:37:33:033 IST] DEBUG jdbc.AbstractBatcher: about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+[10/07/22 08:37:33:033 IST] DEBUG hibernate.SQL: insert into customers_log (Name, Email, Phone, City, Bal, Cid) values (?, ?, ?, ?, ?, ?)
+[10/07/22 08:37:33:033 IST] DEBUG jdbc.AbstractBatcher: preparing statement
+[10/07/22 08:37:33:033 IST] DEBUG entity.BasicEntityPersister: Dehydrating entity: [com.simplilearn.logging.Customer#1]
+[10/07/22 08:37:33:033 IST] DEBUG type.StringType: binding 'rmkatka' to parameter: 1
+[10/07/22 08:37:33:033 IST] DEBUG type.StringType: binding 'mk@abc.com' to parameter: 2
+[10/07/22 08:37:33:033 IST] DEBUG type.LongType: binding '123789' to parameter: 3
+[10/07/22 08:37:33:033 IST] DEBUG type.StringType: binding 'Hyd1' to parameter: 4
+[10/07/22 08:37:33:033 IST] DEBUG type.DoubleType: binding '4000.0' to parameter: 5
+[10/07/22 08:37:33:033 IST] DEBUG type.IntegerType: binding '1' to parameter: 6
+[10/07/22 08:37:33:033 IST] DEBUG jdbc.AbstractBatcher: Adding to batch
+[10/07/22 08:37:33:033 IST] DEBUG jdbc.AbstractBatcher: Executing batch size: 1
+[10/07/22 08:37:33:033 IST] DEBUG jdbc.AbstractBatcher: about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+[10/07/22 08:37:33:033 IST] DEBUG jdbc.AbstractBatcher: closing statement
+[10/07/22 08:37:33:033 IST] DEBUG def.AbstractFlushingEventListener: post flush
+[10/07/22 08:37:33:033 IST] DEBUG jdbc.JDBCContext: before transaction completion
+[10/07/22 08:37:33:033 IST] DEBUG impl.SessionImpl: before transaction completion
+[10/07/22 08:37:33:033 IST] DEBUG transaction.JDBCTransaction: committed JDBC Connection
+[10/07/22 08:37:33:033 IST] DEBUG jdbc.JDBCContext: after transaction completion
+[10/07/22 08:37:33:033 IST] DEBUG impl.SessionImpl: after transaction completion
+[10/07/22 08:37:33:033 IST] DEBUG impl.SessionImpl: closing session
+[10/07/22 08:37:33:033 IST] DEBUG jdbc.AbstractBatcher: closing JDBC connection (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)
+[10/07/22 08:37:33:033 IST] DEBUG connection.DriverManagerConnectionProvider: returning connection to pool, pool size: 1
+[10/07/22 08:37:33:033 IST] DEBUG jdbc.JDBCContext: after transaction completion
+[10/07/22 08:37:33:033 IST] DEBUG impl.SessionImpl: after transaction completion

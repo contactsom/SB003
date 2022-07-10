@@ -1,0 +1,10 @@
+IF TABLE EXIST, DROP
+
+SET foreign_key_checks = 0;
+
+
+drop table customers;
+drop table accounts;
+drop table cust_acc;
+
+SET foreign_key_checks = 1;

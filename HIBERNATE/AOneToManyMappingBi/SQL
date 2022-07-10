@@ -1,0 +1,7 @@
+
+If table Exist , The Drop the table
+SET foreign_key_checks = 0;
+
+	drop table CUSTOMERS_DATA
+
+SET foreign_key_checks = 1;

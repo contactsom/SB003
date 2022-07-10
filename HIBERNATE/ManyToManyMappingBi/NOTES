@@ -1,0 +1,24 @@
+THIS PROGRAM IS FOR many-to-many bi-direction Mapping using XML .
+
+
+
+TABLE1		TABLE2
+PK			FK
+
+Statement 1 - many citizen have many passport - Many to many
+
+Statement 2 - one citizen have one passport -one-to-one
+Statement 3 - one citizen have one passport -one-to-one
+Statement 4 - one citizen have one passport -one-to-one
+Statement 5 - one citizen have one passport -one-to-one
+
+is Statement 1 equivalent to  Statement 2,3,4,5 => YES/NO - YES
+
+
+many to many mapping 
+
+******
+Many to Many mapping is combination of "one-to-one" mapping -> True
+
+
+

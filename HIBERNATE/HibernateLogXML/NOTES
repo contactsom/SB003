@@ -1,0 +1,12 @@
+Log:
+
+Three Types/level :
+	1. INFO
+	2. ERROR
+	3. Warning 
+	4. DEBUG
+
+	
+	using 
+		1. XML
+		2. .properties file

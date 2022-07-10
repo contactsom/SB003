@@ -1,0 +1,19 @@
+THIS PROGRAM IS FOR one-to-many bi-direction Mapping using Annotation .
+
+
+
+let me know the mapping name 
+
+XML :
+ pojo
+ 
+pojo + hbm = entity
+ 
+entity.hbm.xml
+
+kushagrasaxena261
+
+no sir i have doubt in cascade thing , 
+it was used in one to one mapping, 
+but in one to one mapping how to decide which is child or parent ?
+ It was not one to many mapping
