@@ -1,0 +1,13 @@
+
+URL : http://localhost:8080/StudentRegFormHttpServlet/
+
+
+Before Click on Register Button
+
+http://localhost:8080/StudentRegFormHttpServlet/
+
+
+http://localhost:8080/StudentRegFormHttpServlet/studentServlet?firstName=OM&lastName=JHA&emailId=abc%40simplilearn.com&password=54322534
+
+
+base URL + Data 

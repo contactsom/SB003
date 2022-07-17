@@ -1,0 +1,11 @@
+
+In your form you have method="get" which will invoke the doGet. 
+Will it also work if you had 'method="doGet"' 
+
+Sir, What is diff in HTML file and .JSP file?
+
+
+http://localhost:8080/MyHttpServlet/
+
+
+http://localhost:8080/MyHttpServlet/StudentServlet

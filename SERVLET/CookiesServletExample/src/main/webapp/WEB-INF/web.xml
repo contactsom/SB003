@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  
+  <display-name>CookiesExample</display-name>
+  <welcome-file-list>
+    <welcome-file>cookiedemo.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>sdemo</servlet-name>
+    <servlet-class>com.simplilearn.cookies.CookieDemoServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+   <servlet-name>sdemo</servlet-name>
+   <url-pattern>/sdemo.simplilearn</url-pattern>  
+  </servlet-mapping>
+</web-app>

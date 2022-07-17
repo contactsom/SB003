@@ -1,0 +1,18 @@
+Servlet name and Class name can be different? YES
+
+
+Does it check in order listed there? for welcome-file-list
+
+
+No, when the welcome-file-list was generated there were 6 files. 
+
+DOes it check in order if you don't delete them
+
+
+URL : http://localhost:8080/MyServletExample/
+
+Work Flow :
+1. Our server Apache Tomact is look for web.xml first
+2. Welcome file is getting loaded if it is configured 
+3. Servlet class is getting identified , loaded 
+4. Against  that servlet mapping is getting identified using unique key called <servlet-name>
