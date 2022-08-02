@@ -1,0 +1,12 @@
+URL :
+	http://localhost:8080/JspJavaExample/customer.jsp
+	
+	http://localhost:8080/JspJavaExample/insert.jsp
+	
+	
+	
+	DEFAULT SCOPE OF JSP IS SESSION ONLY
+	
+	
+	Sir while setting object values using Jsp:bean we were able to set scope as session , but how to confirm scope of insert.jsp. ?
+	
