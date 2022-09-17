@@ -1,0 +1,15 @@
+show databases;
+
+--drop DATABASE simplilearn;
+
+CREATE DATABASE simplilearn;
+
+USE simplilearn;
+
+
+CREATE TABLE MYSTUDENT(
+     FIRST_NAME varchar (255),
+     LAST_NAME varchar (255),
+     EMAIL varchar (255),
+     PASSWORD varchar (255)
+     );

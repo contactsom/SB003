@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>ServletJdbc</display-name>
+ 
+  <welcome-file-list>
+    <welcome-file>mystudent.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<description></description>
+  	<display-name>StudentServlet</display-name>
+  	<servlet-name>StudentRegFormServlet</servlet-name>
+  	<servlet-class>com.simplilearn.httpservlet.StudentServlet</servlet-class>  
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>StudentRegFormServlet</servlet-name>
+  	<url-pattern>/studentServlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
